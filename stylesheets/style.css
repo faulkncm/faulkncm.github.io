@@ -1,10 +1,7 @@
 body {
-	background-color: blue;
+	background-color:white;
 }
+p {font-size:18px;}
 
-h1,p {
-	color:white;
-}
-
-.slogan {font-size:18px;
+.slogan {font-size:28px; font-style:italic;
 }
