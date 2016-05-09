@@ -17,11 +17,32 @@ img {
 p {
 	margin-top:1em;
 }
+
 .slogan {
-	color: #000000;
+	color: #5C0000;
 	font-size:1.5em;
 	font-style:italic;
+	padding-bottom:.5em;
 }
-#splash {
-	color:#5C0000;
+
+#current-book-of-month {
+	background-color:#BD6D4B;
+	margin-top:1em;
+	width:45%;
+}
+
+#previous-book-of-month {
+	background-color:#BD6D4B;
+	margin-top:1em;
+	width:45%;
+	float:right;
+
+}
+
+#current-reads {
+	width: 45%;
+    padding: 1em;
+    margin: 0 0 1em 0;
+    background: #fff;
+    border-right: 3px solid #000;
 }
