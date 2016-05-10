@@ -27,28 +27,25 @@ p {
 
 #current-book-of-month {
 	line-height: 1.5em;
-    padding: 1em 1.5em;
-    background: #fff;
-    width:50%;
-    height:22em;
-    float:left;
-    border-right: 3px solid #7F0000; 
+        padding: 1em 1.5em;
+        background: #fff;
+        width:50%;
+        height:22em;
+        float:left;
+        border-right: 3px solid #7F0000; 
 }
 
 #previous-book-of-month {
 	line-height: 1.5em;
-    padding: 1em 1.5em;
-    background: #fff;
-    width:50%;
-    height:22em;
-    float:left;
-    
-
+        padding: 1em 1.5em;
+        background: #fff;
+        width:50%;
+        height:22em;
+        float:left;
 }
 
 #current-reads {
 	line-height: 1.5em;
-    padding: 1em 1.5em;
-    background: #fff;
-   
+        padding: 1em 1.5em;
+        background: #fff;
 }
