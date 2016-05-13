@@ -1,10 +1,17 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+<head>
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+</head>
+
 body {
 	background-color: #E0E3E2;
+	font-family: 'Lora', serif;
 	font-size:18px;
 }
 
 h1 {
+	font-family: 'Pacifico', cursive;
 	color:#7F0000;
 }
 ul {
@@ -20,32 +27,34 @@ p {
 
 .slogan {
 	color: #5C0000;
+	font-family: 'Pacifico', cursive;
 	font-size:1.5em;
 	font-style:italic;
 	padding-bottom:.5em;
 }
 
 #current-book-of-month {
-	line-height: 1.5em;
-        padding: 1em 1.5em;
-        background: #fff;
-        width:50%;
-        height:22em;
-        float:left;
-        border-right: 3px solid #7F0000; 
+    line-height: 1.5em;
+    padding: 1em 1.5em;
+    background: #fff;
+    width:50%;
+    height:25em;
+    float:left;
+    border-right: 3px solid #7F0000; 
 }
 
 #previous-book-of-month {
-	line-height: 1.5em;
-        padding: 1em 1.5em;
-        background: #fff;
-        width:50%;
-        height:22em;
-        float:left;
+    line-height: 1.5em;
+    padding: 1em 1.5em;
+    background: #fff;
+    width:50%;
+    height:25em;
+    float:left;
 }
 
 #current-reads {
 	line-height: 1.5em;
-        padding: 1em 1.5em;
-        background: #fff;
+    padding: 1em 1.5em;
+    background: #fff;
+   
 }
