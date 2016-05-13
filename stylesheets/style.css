@@ -1,8 +1,6 @@
+ @import url(https://fonts.googleapis.com/css?family=Pacifico);
+ @import url(https://fonts.googleapis.com/css?family=Lora);
 * { margin:0; padding:0; box-sizing:border-box; }
-<head>
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url(https://fonts.googleapis.com/css?family=Lora);
-</head>
 
 body {
 	background-color: #E0E3E2;
@@ -38,7 +36,6 @@ p {
     padding: 1em 1.5em;
     background: #fff;
     width:50%;
-    height:25em;
     float:left;
     border-right: 3px solid #7F0000; 
 }
@@ -48,12 +45,11 @@ p {
     padding: 1em 1.5em;
     background: #fff;
     width:50%;
-    height:25em;
     float:left;
 }
 
 #current-reads {
-	line-height: 1.5em;
+    line-height: 1.5em;
     padding: 1em 1.5em;
     background: #fff;
    
