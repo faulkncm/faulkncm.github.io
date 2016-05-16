@@ -44,24 +44,23 @@ p {
 
 #previous-book-of-month {
 	line-height: 1.5em;
-    padding: 1em 1.5em;
-    background: #fff;
-    width:50%;
-    /*height: 23em;*/
-    float:left;
+        padding: 1em 1.5em;
+        background: #fff;
+        width:50%;
+        /*height: 23em;*/
+        float:left;
 
 }
 #aside {
 	line-height: 1.5em;
-    padding: 1em 1.5em;
-    text-align: left;
+        padding: 1em 1.5em;
+        text-align: left;
 
 }
 
-
 #current-reads {
 	line-height: 1.5em;
-    padding: 1em 1.5em;
-    background: #fff;
+        padding: 1em 1.5em;
+        background: #fff;
    
 }
