@@ -3,9 +3,15 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-color: #E0E3E2;
+	background-color: #fff;
 	font-family: 'Lora', serif;
 	font-size:18px;
+}
+
+header {
+	background-color:#FFED74;
+	border: 1px black solid;
+	padding:20px;
 }
 
 h1 {
@@ -24,43 +30,61 @@ p {
 	margin-bottom:1em;
 }
 
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+}
+
+section {
+	background-color:#FFE2B8;
+	border: 1px black solid;
+}
+
 .slogan {
 	color: #5C0000;
 	font-size:1.5em;
 	font-style:italic;
-        font-weight: bold;
+    font-weight: bold;
 	padding-bottom:.5em;
 }
 
+/*#wrapper {
+	background-color:white;
+	width: 960px;
+	margin: 0 auto;
+}*/
+
 #current-book-of-month {
 	line-height: 1.5em;
-        padding: 1em 1.5em;
-        background: #fff;
-        width:50%;
-        /*height: 23em;*/
-        float:left;
-        border-right: 3px solid #7F0000; 
+    padding: 1em 1.5em;
+    background: #fff;
+    width:50%;
+    /*height: 23em;*/
+    float:left;
+    border-right: 3px solid #7F0000; 
 }
 
 #previous-book-of-month {
 	line-height: 1.5em;
-        padding: 1em 1.5em;
-        background: #fff;
-        width:50%;
-        /*height: 23em;*/
-        float:left;
-
-}
-#aside {
-	line-height: 1.5em;
-        padding: 1em 1.5em;
-        text-align: left;
+    padding: 1em 1.5em;
+    background: #fff;
+    width:50%;
+    /*height: 23em;*/
+    float:left;
+    
 
 }
 
 #current-reads {
+	background-color: #E0E3E2;
 	line-height: 1.5em;
-        padding: 1em 1.5em;
-        background: #fff;
-   
+    padding: 1em 1.5em;
+    clear:both;
+       
+}
+
+footer {
+	margin: 2em;
+	background-color: #FF957E;
+	border: 1px black solid;
 }
