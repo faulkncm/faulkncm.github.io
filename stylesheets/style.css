@@ -2,6 +2,18 @@
  @import url(https://fonts.googleapis.com/css?family=Lora);
 * { margin:0; padding:0; box-sizing:border-box; }
 
+nav {
+	background-color: #E0E3E2;
+	font-size: 1.8em;
+	float:left;
+	
+}
+
+nav a {
+	margin: 1.8em;
+	display: inline-block;
+}
+
 body {
 	background-color: #fff;
 	font-family: 'Lora', serif;
@@ -87,4 +99,35 @@ footer {
 	margin: 2em;
 	background-color: #FF957E;
 	border: 1px black solid;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
