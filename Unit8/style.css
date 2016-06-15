@@ -1,0 +1,137 @@
+ @import url(https://fonts.googleapis.com/css?family=Pacifico);
+ @import url(https://fonts.googleapis.com/css?family=Lora);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+nav {
+	background-color: #E0E3E2;
+	font-size: 1.8em;
+	float:left;
+	
+}
+
+nav a {
+	margin: 1.8em;
+	display: inline-block;
+}
+
+body {
+	background-color: #fff;
+	font-family: 'Lora', serif;
+	font-size:1.2em;
+}
+
+header {
+	padding-top:30px;
+	padding-left:20px;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5em;
+	text-align:center;
+	color:#7F0000;
+}
+ul {
+	padding-left:1.25em;
+}
+img {
+	float:left;
+	padding-right:1.5em;
+	padding-bottom:1.5em;
+}
+p {
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+section {
+	background-color:#FFE2B8;
+	border: 3px solid #7F0000; 
+}
+
+.slogan {
+	color: #5C0000;
+	text-align: center;
+	font-size:1.5em;
+	font-style:italic;
+    font-weight: bold;
+}
+
+#openpara {
+	background-color: #E0E3E2;
+	line-height: 1.5em;
+	margin: 4em 10em 4em 10em;
+    padding: 2em;
+    text-align:center; 
+    clear:both;
+}
+
+#current-book-of-month {
+	background-color: #E0E3E2;
+	line-height: 1.5em;
+	margin-left: 1.2em;
+	margin-right: 1em;
+    padding: 3em;
+    width:48%;
+    float:left;
+    border: 3px solid #7F0000;
+}
+
+#previous-book-of-month {
+	background-color: #E0E3E2;
+	line-height: 1.5em;
+    margin-left: .5em;
+	margin-right: 1em;
+    padding: 3em;
+    width:48%;
+    float:left;
+    border: 3px solid #7F0000;
+ }
+
+#current-reads {
+	background-color: #E0E3E2;
+	border: 3px solid #7F0000;
+	float:left;
+	line-height: 1.5em;
+	margin: 2em 1em 2em 1.2em;
+	padding: 2em;
+    width:48%;
+}
+
+#reviewed {
+	background-color: #E0E3E2;
+	border: 3px solid #7F0000;
+	float:left;
+	line-height: 1.5em;
+	margin: 2em 1em 2em 1.2em;
+	padding: 2em;
+    width:47%;
+}
+
+footer {
+	margin: 3em;
+	clear:both;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+@media only screen and (max-width: 800px) {
+	#current-book-of-month {
+	float:none;
+	width:100%;
+}
+	#previous-book-of-month {
+	float:none;
+	width:100%;
+}
