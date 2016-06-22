@@ -1,0 +1,185 @@
+ @import url(https://fonts.googleapis.com/css?family=Pacifico);
+ @import url(https://fonts.googleapis.com/css?family=Lora);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: #fff;
+	font-family: 'Lora', serif;
+	font-size:1.2em;
+}
+
+header {
+	padding-top:30px;
+	padding-left:20px;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5em;
+	text-align:center;
+	color:#7F0000;
+}
+ul {
+	padding-left:1.25em;
+}
+
+img {
+	float: left;
+	padding-right:1.5em;
+	padding-bottom:1.5em;
+}
+
+p {
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+section {
+	background-color:#FFE2B8;
+	border: 3px solid #7F0000; 
+}
+
+.slogan {
+	color: #5C0000;
+	text-align: center;
+	font-size:1.5em;
+	font-style:italic;
+    font-weight: bold;
+}
+.page-main{
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color:#74AFAD;
+    padding: .75em;
+}
+#openpara {
+    display: inline-block;
+    width: 100%;
+	background-color: #E0E3E2;
+	line-height: 1.5em;
+    padding: 2em;
+    text-align:center; 
+    clear:both;
+}
+
+#current-book-of-month {
+	background-color: #E0E3E2;
+	line-height: 1.5em;
+	margin-left: 1em;
+    padding: 3em;
+    width:100%;
+    display: inline-block;
+    border: 3px solid #7F0000;
+}
+
+#previous-book-of-month {
+	background-color: #E0E3E2;
+	line-height: 1.5em;
+    margin-left: .5em;
+	margin-right: 1em;
+    padding: 3.3em;
+    width:100%;
+    display: inline-block;
+    border: 3px solid #7F0000;
+ }
+
+#current-reads {
+	background-color: #E0E3E2;
+	border: 3px solid #7F0000;
+	display: inline-block;
+	line-height: 1.5em;
+	margin: 2em 1em 2em 1.2em;
+	padding: 2em;
+    width:100%;
+}
+
+#reviewed {
+	background-color: #E0E3E2;
+	border: 3px solid #7F0000;
+	display: inline-block;
+	line-height: 1.5em;
+	margin: 2em 1em 2em 1.2em;
+	padding: 2em;
+    width:100%;
+}
+
+footer {
+	margin: 3em;
+	clear:both;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+@media screen and (min-width: 320px) {
+    
+	#current-book-of-month {
+	margin: 1em 0 0 0;
+	padding: 2em;
+	width: 100%;
+	}
+
+	#previous-book-of-month {
+	margin: 1em 0 0 0;
+	padding-top: 2em;
+	padding-bottom: 2.6em;
+	width: 100%;
+    vertical-align: top;
+	}
+
+	#current-reads {
+	margin: 1em 0 0 0;
+	width: 100%;
+	}
+
+	#reviewed {
+	margin: 1em 0 0 0;
+	width: 100%;
+	vertical-align: top;
+	}
+}
+
+@media screen and (min-width: 740px) {
+    
+	#current-book-of-month {
+	margin: 1em 0 0 0;
+	padding: 2em;
+	width: 48%;
+	}
+
+	#previous-book-of-month {
+	margin: 1em 0 0 0;
+	padding-top: 2em;
+	padding-bottom: 2.6em;
+	width: 48%;
+    vertical-align: top;
+	}
+
+	#current-reads {
+	margin: 1em 0 0 0;
+	width: 48%;
+	}
+
+	#reviewed {
+	margin: 1em 0 0 0;
+	width: 48%;
+	vertical-align: top;
+	}
+}
+
+@media screen and (min-width: 1080px){
+    #openpara {
+       	width: 48%;
+        margin: 0 auto;
+	}
+}
